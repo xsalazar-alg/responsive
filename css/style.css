@@ -1,0 +1,41 @@
+html{
+    font-size: 1px;
+}
+
+h1{
+    text-align: center;
+
+}
+
+@media screen and (max-width:480px){
+    body{
+        background: rgb(47, 57, 247);
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (min-width:480px) and (max-width:1279px){
+    body{
+        background: rgb(185, 255, 44);
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (min-width:1280px){
+    body{
+        background: rgb(255, 47, 82);
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+}
+
